@@ -1,6 +1,6 @@
 // BASE URL OF OUR DEPLOYED API
 // BASE URL OF OUR DEPLOYED API
-const URL = "http://mydeployedurl.hostserver.whatever"
+const URL = "https://portfolio-ff3e.onrender.com"
 
 export const projectsLoader = async () => {
 	const response = await fetch(URL + "/projects")
