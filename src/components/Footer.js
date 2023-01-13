@@ -1,5 +1,9 @@
 function Footer(props) {
-	return <h1>Footer</h1>
+	return (
+		<div class="footer">
+			<a href="/">Home</a> | <a href="/">Email</a> | <a href="/">LinkedIn</a>
+		</div>
+	)
 }
 
 export default Footer

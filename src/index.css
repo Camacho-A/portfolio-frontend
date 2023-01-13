@@ -11,3 +11,147 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: white;
+  font-size: 5em;
+  font-weight: normal;
+  padding: 10px;
+  margin: auto;
+  letter-spacing: -0.07em;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.nav, .nav a {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(43, 43, 43);
+  font-size: 1.5em;
+  text-decoration: none;
+  color: rgb(172, 172, 172);
+  margin: 0;
+}
+
+.nav a {
+  padding: 20px;
+}
+
+.nav a:hover {
+  background-color: rgb(220, 219, 219);
+  color:rgb(122, 122, 122);
+  transition: ease-in-out all .4s; 
+  -moz-transition: ease-in-out all .4s;
+  -webkit-transition: ease-in-out all .4s;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+a {
+ 
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  letter-spacing: 0.09em;
+}
+
+a:hover {
+  color:rgb(122, 122, 122);
+ 
+}
+
+a button {
+  margin: auto;
+
+}
+
+button{
+  display: block;
+  border: none;
+  background: none;
+  letter-spacing: 2px;
+  padding: 5px ;
+  cursor: pointer;
+  font-size: 1.2em;
+
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-family: Neucha, sans-serif;
+  font-size: 2rem;
+  line-height: 23px;
+  outline: none;
+  padding: .50rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  margin: 50px;
+    touch-action: manipulation;
+
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+  background-color: #000000;
+  color: white;
+}
+
+.button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.about {
+  padding: 100px;
+  font-size: 20px;
+}
+
+.main {
+  margin: 50px;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.name {
+  margin-top: 50px;
+}
+
+
+.footer {
+  background-image: linear-gradient(rgb(43, 43, 43), rgb(27, 27, 27));
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+img {
+  width: 80%;
+}
