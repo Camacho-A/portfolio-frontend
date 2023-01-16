@@ -5,6 +5,7 @@ function Projects(props) {
 
 	return projects.map((project) => (
 		<div className="project">
+
 			<div className="name">
 				<h1>{project.name}</h1>
 			</div>

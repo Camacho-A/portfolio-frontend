@@ -1,7 +1,9 @@
+
 function Home(props) {
 	return (
 		<div className="main">
-			Welcome to my Software Engineer Portfolio
+			Welcome to my Software Engineering Portfolio
+		
 		</div>
 	)
 	

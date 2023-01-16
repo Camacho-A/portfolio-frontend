@@ -1,7 +1,7 @@
 function Footer(props) {
 	return (
 		<div class="footer">
-			<a href="/">Home</a> | <a href="/">Email</a> | <a href="/">LinkedIn</a>
+			 <a href="https://www.linkedin.com/in/camachoangelicaa/">LinkedIn</a>
 		</div>
 	)
 }
